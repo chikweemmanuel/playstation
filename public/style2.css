@@ -1,0 +1,882 @@
+.sonynavbar{
+    display: flex;
+    background-color: black;
+    height: 35px;
+    width: 100%;
+    font-weight: bold;
+    padding-left: 96%;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+ 
+.navbar.navbar-expand-lg.bg-light{
+    display: flex;
+    background-color: white;
+    position: sticky;
+    z-index: 5;
+    top: 0px;
+}
+.nav-item1{
+    display: flex;
+    text-decoration: underline 2px black;
+}
+.nav-item1:hover{
+   border-bottom: 1px solid black;
+   border-top: 1px solid black;
+   border-radius: 10px;
+}
+.nav-item2:hover{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-radius: 10px;
+ }
+ .nav-item3:hover{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-radius: 10px;
+ }
+ .nav-item4:hover{
+    border: 1px solid black;
+    border-radius: 10px;
+ }
+
+
+.ps4writeup{
+    display: flex-start;
+        background-color: white;
+        position: sticky;
+        z-index: 5;
+        top: 0px;     
+        font-size: 30px;
+        margin-left: 10px;
+ }
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.ps4head2 {
+  font-size: 36px;
+  margin-top: 50px;
+}
+
+.ps4text {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .ps4head img {
+    height: 150px;
+    width: 280px;
+  }
+  
+  .ps4head2 {
+    font-size: 24px;
+    margin-top: 30px;
+  }
+  
+  .ps4text {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+}
+
+.extra {
+      font-size: 24px;
+      display: block;
+      text-align: center;
+      margin-bottom: 10px;
+  }
+
+  @media (max-width: 768px) {
+      .extra {
+          font-size: 20px;
+      }
+      }
+      @media (max-width: 480px) {
+      .extra {
+          font-size: 16px;
+      }
+
+}
+
+
+ .fightimg {
+  width: 100%;
+  max-width: 900px; /* adjust the maximum width to your preference */
+  margin: 0 auto;
+  }
+
+.fightimg:hover {
+  box-shadow: 10px 6px #888888;
+  transition: .9s;
+  border-radius: 25px;
+}
+
+.fightimg img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+  
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .fightimg {
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .fightimg {
+    max-width: 300px;
+  }
+}
+
+
+ .py-3.my-4{
+      background-color: black;
+      color: white;
+  }
+ 
+
+       .godofwarimg{
+        display: flex;
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 150px;
+       }
+       .godofwarimg:hover{
+        transition: all 1s;
+        box-shadow: 5px 10px 5px 10px black;
+        }
+       .godofwarhead{
+        display: flex;
+        position: absolute;
+        font-size: 25px;
+        margin-top: 50px;
+        margin-left: 800px;
+       }
+      
+       .godofwartext{
+        display: flex;
+        position: absolute;
+        margin-top: 95px;
+        font-size: 15px;
+        margin-left:  800px;
+       }
+       .forestgirlimg{
+        display: flex;
+       position: relative;
+        margin-top: 400px;
+        justify-content: center;
+       }
+       
+       .forestgirlimg2{
+        display: flex;
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 800px; 
+       }
+       .forestgirlimg2:hover{
+        transition: all 1s;
+        box-shadow: 5px 10px 5px 10px gray;
+       }
+       .foresttext{
+        display: flex;
+        position: absolute;
+        margin-top: 30px;
+        margin-left: 150px; 
+        font-size: 25px;
+       }
+       .foresttext1{
+        display: flex;
+        position: absolute;
+        margin-top: 80px;
+        font-size: 15px;
+        margin-left: 150px; 
+       }
+       
+      .forestblue{
+        display: flex;
+        position: absolute;
+        margin-top: 400px;
+        justify-content: center;  
+       }
+
+       .residentevil{
+            display: flex;
+            position: absolute;
+            margin-top: 800px;
+            margin-left: 15px;
+        }
+        .residentevil:hover{
+            transition: all 1s;
+            border-radius: 30px;
+        box-shadow: 5px 10px 5px 10px black;
+        } 
+        .the-lastofuspart{
+            display: flex;
+            position: absolute;
+            margin-top: 800px;
+            margin-left: 330px;
+        }
+        .the-lastofuspart:hover{
+            transition: all 1s;
+            border-radius: 30px;
+        box-shadow: 5px 10px 5px 10px black;
+        } 
+        .godofwar{
+            display: flex;
+            position: absolute;
+            margin-top: 800px;
+            margin-left: 650px;
+        }
+        .godofwar:hover{
+            transition: all 1s;
+            border-radius: 30px;
+        box-shadow: 5px 10px 5px 10px black;
+        } 
+        .gt7{
+            display: flex;
+            position: absolute;
+            margin-top: 800px;
+            margin-left: 960px;
+        }
+        .gt7:hover{
+            transition: all 1s;
+            border-radius: 30px;
+        box-shadow: 5px 10px 5px 10px black;
+        } 
+        .horizonforbiddenwest{
+            display: flex;
+            position: absolute;
+            margin-top: 800px;
+            margin-left: 1280px;
+        }
+        .horizonforbiddenwest:hover{
+            transition: all 1s;
+            border-radius: 30px;
+        box-shadow: 5px 10px 5px 10px black;
+        }
+        .callofdutyhead{
+            display: flex;
+            position: absolute;
+            color: white;
+        margin-top: 1350px;
+        font-size: 40px;
+        margin-left: 350px;
+        }
+
+        .callofdutyimg{
+        display: flex;
+        position: absolute;
+        margin-top: 1450px;
+      margin-left: 60px;
+    }
+    
+    .callofdutygame{
+        display: flex;
+        position: absolute;
+        margin-top: 1900px;
+        margin-left: 300px;
+    }
+    .callofdutygame:hover{
+        transition: all 1s;
+        box-shadow: 5px 10px 5px 10px black;
+        }
+    .callofdutytext{
+        display: flex;
+        position: absolute;
+        margin-top: 2000px;
+        margin-left: 900px;
+        font-size: 22px;
+    }
+    .callofdutytext1{
+        display: flex;
+        position: absolute;
+        margin-top: 2050px;
+        margin-left: 900px;
+        font-size: 15px;
+    }
+    .moreps4text{
+        display: flex;
+        position: absolute;
+         color: black;
+        margin-top: 2350px;
+        font-size: 30px;
+        margin-left: 550px;
+    }
+
+    .ninja{
+        display: flex;
+        position: absolute;
+        margin-top: 2500px;
+        margin-left: 40px;
+        
+    }
+    .ninja:hover{
+        width: 280px;
+        height: 280px;
+        transition: all 1s;
+        box-shadow: 5px 2px 5px 2px black;
+        }
+        .returnal{
+        display: flex;
+        position: absolute;
+        margin-top: 2500px;
+        margin-left: 350px;
+        }
+        .returnal:hover{
+        width: 280px;
+        height: 280px;
+        transition: all 1s;
+        box-shadow: 5px 2px 5px 2px black;
+        }
+        .uncharted{
+        display: flex;
+        position: absolute;
+        margin-top: 2500px;
+        margin-left: 650px;
+        }
+        .uncharted:hover{
+        width: 280px;
+        height: 280px;
+        transition: all 1s;
+        box-shadow: 5px 2px 5px 2px black;
+        }
+        .destructionallstars{
+        display: flex;
+        position: absolute;
+        margin-top: 2500px;
+        margin-left: 950px;
+        }
+        .destructionallstars:hover{
+        width: 280px;
+        height: 280px;
+        transition: all 1s;
+        box-shadow: 5px 2px 5px 2px black;
+        }
+        .deathstranding{
+        display: flex;
+        position: absolute;
+        margin-top: 2500px;
+         margin-left: 1265px;
+        }
+        .deathstranding:hover{
+        width: 280px;
+        height: 280px;
+        transition: all 1s;
+        box-shadow: 5px 2px 5px 2px black;
+        }
+      
+        .hogwartslegacy{
+        display: flex;
+        position: absolute;
+        margin-top: 2900px;
+        margin-left: 40px;
+        }
+        .hogwartslegacy:hover{
+        width: 280px;
+        height: 280px;
+        transition: all 1s;
+        box-shadow: 5px 2px 5px 2px black;
+        }
+    .dead-space{
+         display: flex;
+        position: absolute;
+        margin-top: 2900px;
+        margin-left: 350px;
+        }
+        .dead-space:hover{
+        width: 280px;
+        height: 280px;
+        transition: all 1s;
+        box-shadow: 5px 2px 5px 2px black;
+        }
+     .the-show{ 
+            display: flex;
+        position: absolute;
+        margin-top: 2900px;
+        margin-left: 650px;
+        }
+        .the-show:hover{
+        width: 280px;
+        height: 280px;
+        transition: all 1s;
+        box-shadow: 5px 2px 5px 2px black;
+        }
+         .NBA{
+        display: flex;
+        position: absolute;
+        margin-top: 2900px;
+         margin-left: 950px;
+        }
+        .NBA:hover{
+        width: 280px;
+        height: 280px;
+        transition: all 1s;
+        box-shadow: 5px 2px 5px 2px black;
+        }
+        .forspoken{
+         display: flex;
+         position: absolute;
+         margin-top: 2900px;
+        margin-left: 1265px;
+        }
+        .forspoken:hover{
+        width: 280px;
+        height: 280px;
+        transition: all 1s;
+        box-shadow: 5px 2px 5px 2px black;
+        } 
+
+
+
+
+        .lastsection{
+            display: flex;
+            margin-top: 3200px;
+        }
+        .lastsectionimg1{
+            display: flex;
+            position: absolute;
+            margin-top: 35px;
+            margin-left: 15px;
+        }
+        .lastsectionimg1:hover{
+            transition: all 1s;
+            border-radius: 30px;
+        box-shadow: 5px 10px 5px 10px black;
+        } 
+        .lastsectionimg2{
+            display: flex;
+            position: absolute;
+            margin-top: 35px;
+            margin-left: 330px;
+        }
+        .lastsectionimg2:hover{
+            transition: all 1s;
+            border-radius: 30px;
+        box-shadow: 5px 10px 5px 10px black;
+        } 
+        .lastsectionimg3{
+            display: flex;
+            position: absolute;
+            margin-top: 35px;
+            margin-left: 650px;
+        }
+        .lastsectionimg3:hover{
+            transition: all 1s;
+            border-radius: 30px;
+        box-shadow: 5px 10px 5px 10px black;
+        } 
+        .lastsectionimg4{
+            display: flex;
+            position: absolute;
+            margin-top: 35px;
+            margin-left: 960px;
+        }
+        .lastsectionimg4:hover{
+            transition: all 1s;
+            border-radius: 30px;
+        box-shadow: 5px 10px 5px 10px black;
+        } 
+        .lastsectionimg5{
+            display: flex;
+            position: absolute;
+            margin-top: 35px;
+            margin-left: 1280px;
+        }
+        .lastsectionimg5:hover{
+            transition: all 1s;
+            border-radius: 30px;
+        box-shadow: 5px 10px 5px 10px black;
+        }
+
+
+
+
+        .extra {
+      font-size: 24px;
+      display: block;
+      text-align: center;
+      margin-bottom: 10px;
+  }     
+    
+  @media (max-width: 768px) {
+      .extra {
+          font-size: 20px;
+      }
+      }
+
+
+      @media (max-width: 480px) {
+      .extra {
+          font-size: 16px;
+      }
+      }
+
+      .extra1 {
+      font-size: 24px;
+      display: block;
+      text-align: center;
+  }
+
+  @media (max-width: 768px) {
+      .extra {
+          font-size: 20px;
+      }
+
+      .extra1 {
+          font-size: 16px;
+      }
+  }
+
+  @media (max-width: 480px) {
+      .extra {
+          font-size: 16px;
+      }
+
+      .extra1 {
+          font-size: 14px;
+      }
+  }
+
+ .py-3.my-4{
+      background-color: black;
+      color: white;
+  }
+       
+
+.Gameimages{
+            display: flex;
+            position: inherit;
+            
+        }
+        .product-container{
+            border: 1px solid whitesmoke;
+            border-radius: 10px;
+            margin-top: 10px;
+            padding: 15px;
+            box-shadow: 2px 5px 3px #888888;
+        }
+        .product-container > img{
+            height: 350px;
+            width: 100%;
+            margin-bottom: 10px;
+       }
+
+
+        .footer2{
+            display: flex;
+            position: absolute;
+            background-color: #00439c;
+            opacity: .7.5;
+            color: white;
+            width: 100%;
+            height: 600px
+        }
+        .playstationimage{
+            display: flex;
+            position: absolute;
+           margin-top: 20px;
+        } 
+        .about{
+            display: flex;
+            position: absolute;
+            margin-top: 150px;
+            margin-left: 70px;
+            font-size: 16px;
+        }
+        .sie{
+            display: flex;
+            position: absolute;
+            margin-top: 178px;
+            margin-left: 70px;
+            font-size: 16px; 
+        }
+        .careers{
+            display: flex;
+            position: absolute;
+            margin-top: 207px;
+            margin-left: 70px;
+            font-size: 16px; 
+        }
+        .playstationstudios{
+            display: flex;
+            position: absolute;
+            margin-top: 236px;
+            margin-left: 70px;
+            font-size: 16px; 
+        }
+        .corporate{
+            display: flex;
+            position: absolute;
+            margin-top: 265px;
+            margin-left: 70px;
+            font-size: 16px; 
+        }
+        .products{
+            display: flex;
+            position: absolute;
+            margin-top: 150px;
+            margin-left: 320px;
+            font-size: 16px;
+        }
+        .ps{
+            display: flex;
+            position: absolute;
+            margin-top: 179px;
+            margin-left: 320px;
+            font-size: 16px; 
+        }
+        .ps4{
+            display: flex;
+            position: absolute;
+            margin-top: 208px;
+            margin-left: 320px;
+            font-size: 16px; 
+        }
+        .psvr{
+            display: flex;
+            position: absolute;
+            margin-top: 237px;
+            margin-left: 320px;
+            font-size: 16px; 
+        }
+        .pspl{
+            display: flex;
+            position: absolute;
+            margin-top: 266px;
+            margin-left: 320px;
+            font-size: 16px; 
+        }
+        .access{
+            display: flex;
+            position: absolute;
+            margin-top: 295px;
+            margin-left: 320px;
+            font-size: 16px; 
+        }
+        .gaes{
+            display: flex;
+            position: absolute;
+            margin-top: 324px;
+            margin-left: 320px;
+            font-size: 16px; 
+        }
+        .values{
+            display: flex;
+            position: absolute;
+            margin-top: 150px;
+            margin-left: 570px;
+            font-size: 16px;
+        }
+        .environment{
+            display: flex;
+            position: absolute;
+            margin-top: 179px;
+            margin-left: 570px;
+            font-size: 16px; 
+        }
+        .accessibility{
+            display: flex;
+            position: absolute;
+            margin-top: 208px;
+            margin-left: 570px;
+            font-size: 16px; 
+        }
+        .onlinesafety{
+            display: flex;
+            position: absolute;
+            margin-top: 237px;
+            margin-left: 570px;
+            font-size: 16px; 
+        }
+        .diver{
+            display: flex;
+            position: absolute;
+            margin-top: 266px;
+            margin-left: 570px;
+            font-size: 16px; 
+        }
+        .support1{
+            display: flex;
+            position: absolute;
+            margin-top: 150px;
+            margin-left: 820px;
+            font-size: 16px;
+        }
+        .hub{
+            display: flex;
+            position: absolute;
+            margin-top: 179px;
+            margin-left: 820px;
+            font-size: 16px; 
+        }
+        .safety{
+            display: flex;
+            position: absolute;
+            margin-top: 208px;
+            margin-left: 820px;
+            font-size: 16px; 
+        }
+        .status{
+            display: flex;
+            position: absolute;
+            margin-top: 237px;
+            margin-left: 820px;
+            font-size: 16px; 
+        }
+        .repairs{
+            display: flex;
+            position: absolute;
+            margin-top: 266px;
+            margin-left: 820px;
+            font-size: 16px; 
+        }
+        .reset{
+            display: flex;
+            position: absolute;
+            margin-top: 295px;
+            margin-left: 820px;
+            font-size: 16px; 
+        }
+        .resources{
+            display: flex;
+            position: absolute;
+            margin-top: 150px;
+            margin-left: 67%;
+            font-size: 16px;
+        }
+        .psnterms{
+            display: flex;
+            position: absolute;
+            margin-top: 179px;
+            margin-left: 67%;
+            font-size: 16px;
+        }
+        .cancel{
+            display: flex;
+            position: absolute;
+            margin-top: 208px;
+            margin-left: 67%;
+            font-size: 16px;
+        }
+        .ratings{
+            display: flex;
+            position: absolute;
+            margin-top: 237px;
+            margin-left: 67%;
+            font-size: 16px;
+        }
+        .health{
+            display: flex;
+            position: absolute;
+            margin-top: 266px;
+            margin-left: 67%;
+            font-size: 16px;
+        }
+        .developers{
+            display: flex;
+            position: absolute;
+            margin-top: 295px;
+            margin-left: 67%;
+            font-size: 16px;
+        }
+        .glossary{
+            display: flex;
+            position: absolute;
+            margin-top: 324px;
+            margin-left: 67%;
+            font-size: 16px;
+        }
+        .connect{
+            display: flex;
+            position: absolute;
+            margin-top: 150px;
+            margin-left: 84%;
+            font-size: 16px;
+        }
+        .ios{
+            display: flex;
+            position: absolute;
+            font-size: 16px;
+        }
+        .facebook{
+            display: flex;
+            margin-left: 1325px;
+            margin-top: 182px;
+        }
+        .twitter{
+            display: flex;
+            margin-left: 5px;
+            margin-top: 182px;
+        }
+        .insta{
+            display: flex;
+            margin-left: 7px;
+            margin-top: 182px;
+        }
+        .utube{
+            display: flex;
+            margin-left: 9px;
+            margin-top: 182px;
+        }
+        .ios1{
+            display: flex;
+            position: absolute;
+            margin-top: 220px;
+            left: 84%;
+            font-size: 16px;
+        }
+        .android{
+            display: flex;
+            position: absolute;
+            margin-top: 249px;
+            left: 84%;
+            font-size: 16px;
+        }
+        .simage{
+            display: flex;
+            position: absolute;
+            margin-top: 270px;
+            left: 2%;
+        }
+        .sony{
+            display: flex;
+            position: absolute;
+            margin-top: 460px;
+            left: 4%;
+            font-size: 15px;
+        }
+        .rights{
+            display: flex;
+            position: absolute;
+            margin-top: 480px;
+            left: 4%;
+            font-size: 15px; 
+        }
+        .country{
+            display: flex;
+            position: absolute;
+            color: white;
+            margin-top: 530px;
+            left: 7%;
+            font-size: 14px; 
+        }
+        .legacy{
+            display: flex;
+            position: absolute;
+            margin-top: 530px;
+            left: 58%;
+            font-size: 15px; 
+        }

@@ -1,0 +1,142 @@
+.sonynavbar{
+    display: flex;
+    background-color: black;
+    height: 35px;
+    width: 100%;
+    font-weight: bold;
+    padding-left: 96%;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+ 
+.navbar.navbar-expand-lg.bg-light{
+    display: flex;
+    background-color: white;
+    position: sticky;
+    z-index: 5;
+    top: 0px;
+}
+.nav-item1:hover{
+   border-bottom: 1px solid black;
+   border-top: 1px solid black;
+   border-radius: 10px;
+}
+.nav-item2:hover{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-radius: 10px;
+ }
+ .nav-item3:hover{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-radius: 10px;
+ }
+ .nav-item4:hover{
+    border: 1px solid black;
+    border-radius: 10px;
+ }
+
+
+ .playhasnolimits{
+    display: flex;
+    justify-content: center;
+}
+
+/* Common styles */
+.blue {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+  }
+  
+  
+  .feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .feature img {
+    height: 50px;
+  }
+  
+  .feature-text {
+    margin-top: 10px;
+  }
+  
+  .lasttext {
+    margin-top: 20px;
+    line-height: 1.5;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .feature {
+      flex-direction: row;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+  
+    .feature img {
+      height: 40px;
+      margin-right: 10px;
+    }
+  
+    .lasttext {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .feature {
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+  
+    .feature img {
+      height: 50px;
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .lasttext {
+      font-size: 12px;
+    }
+  }
+
+
+  .socialmediatext{
+       display: flex;
+       justify-content: center;
+       font-size: 30px;
+       font-weight: normal;
+  }
+
+  .socialmedia{
+    display: flex;
+    justify-content: center;
+   
+  }
+.facebook{
+    display: flex;
+    margin-right: 40px;
+}
+.twitter{
+    display: flex;
+    margin-right: 20px;
+}
+.instagram{
+    display: flex;
+    margin-left: 20px;
+}
+.youtube{
+    display: flex;
+    margin-left: 20px;
+}
+
+  .py-3.my-4{
+      background-color: black;
+      color: white;
+  }
